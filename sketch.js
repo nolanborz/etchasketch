@@ -24,13 +24,19 @@
 
 function makeBoxes(numOfBoxes) {
     for (let i = 0; i < numOfBoxes; i++){
-        let makeElement = document.createElement("div");
-        let makeSelector = document.querySelector(".container");
-        makeSelector.appendChild(makeElement);
-        makeElement.setAttribute("class", "box");
+        let newElement = document.createElement("div");
+        let newLocation = document.querySelector(".container");
+        newLocation.appendChild(newElement);
+        newElement.setAttribute("class", "box");
+        newElement.addEventListener("mouseover", () => {
+            newElement.style.background = "lightblue";
+
+        })
     }
 }
 makeBoxes(16);
+
+    
 
 
 
