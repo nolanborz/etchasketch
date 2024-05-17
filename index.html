@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Etchasketch</title>
     <link rel="stylesheet" href="styles.css">
     <script src='sketch.js' defer></script>
 </head>
 <body>
-    <div class="container"></div>
+    <div class="contents">
+        <h1 id="header">Etch-a-Sketch</h1>
+        <div id="size" class="size">16x16</div>
+        <div class="buttons">
+            <button class = "btn" id="sizeBtn">Adjust Size</button>
+            <button class = "btn" id="startBtn">Start</button>
+            <button class = "btn" id="resetBtn">Reset</button>
+        </div>
+        <div id="grid"></div>
+        <footer id="footer">placeholder text</footer>
+    </div>
 </body>
 </html>
