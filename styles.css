@@ -6,7 +6,12 @@
   align-content: center;
   margin-bottom: 10px;
 }
-.contents{
+
+#size {
+  margin-bottom: 10px;
+}
+
+.contents {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,7 +34,7 @@
   display: flex;
   flex-direction:column;
   flex: 1;
-  border: black solid 2px;
+  border: black solid 1px;
   align-items: center;
   justify-content: center;
   min-width: 400px;
@@ -44,7 +49,7 @@
 .square {
   display:flex;
   flex: 1;
-  border: brown 1px solid;
+  border: black 1px solid;
 }
 #footer {
   display: flex;
