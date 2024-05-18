@@ -28,30 +28,27 @@
 #grid {
   display: flex;
   flex-direction:column;
-  width: 400px;
-  height: 400px;
+  flex: 1;
   border: black solid 2px;
   align-items: center;
   justify-content: center;
-  flex: 1;
-  
+  min-width: 400px;
+  min-height: 400px;
 }
 .row {
   display:flex;
-  width: 400px;
   flex: 1 0 auto;
+  width: 400px;
+  justify-content:center;
+}
+.square {
+  display:flex;
+  flex: 1;
+  border: brown 1px solid;
 }
 #footer {
   display: flex;
   justify-content: center;
   align-items: center;
- 
-}
-.square {
-  width: 10px;
-  height: 10px;
-  flex: 1 0 auto;
-
-  border: brown 1px solid;
 }
 
